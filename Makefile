@@ -25,11 +25,9 @@ brasenham.c \
 brasenham2.c \
 brasenham3.c \
 rotation.c \
-z.c \
-zoom_and_red.c \
+zoom_and_red.c
 
 OBJ = $(SRC:.c=.o)
-
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra
 EXT = -lmlx -framework OpenGL -framework Appkit

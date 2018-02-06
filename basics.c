@@ -61,7 +61,8 @@ void	error(int i)
 	if (i == 66)
 		ft_putendl("Error: Malloc fail");
 	if (i == 42)
-		ft_putendl("Error");
+		ft_putendl("Error: Bad usage... Please input only the executable \
+and a single valid <name>.fdf wireframe file");
 	exit(42);
 }
 

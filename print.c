@@ -30,6 +30,7 @@ t_point	*pointset(t_a *a)
 	t_point		*p;
 
 	j = 0;
+	free(a->p);
 	if (!(p = (t_point*)malloc(sizeof(t_point) * a->m.x * a->m.y)))
 		error(66);
 	while (j < a->m.x * a->m.y)
