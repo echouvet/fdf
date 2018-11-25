@@ -54,6 +54,10 @@ int		hooks(int keycode, t_a *a)
 		rot_y_left(a);
 	if (keycode == 2)
 		rot_y_right(a);
+	if (keycode == 14)
+		rot_z_1(a);
+	if (keycode == 12)
+		rot_z_0(a);
 	hooks2(keycode, a);
 	return (0);
 }

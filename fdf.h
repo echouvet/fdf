@@ -13,7 +13,7 @@
 #ifndef FDF_H
 # define FDF_H
 
-# include "mlx.h"
+# include "mlx/mlx.h"
 # include "libft/libft.h"
 # include <fcntl.h>
 # include <math.h>
@@ -100,6 +100,8 @@ void			rot_y_left(t_a *a);
 void			rot_y_right(t_a *a);
 void			rot_x_up(t_a *a);
 void			rot_x_down(t_a *a);
+void			rot_z_1(t_a *a);
+void			rot_z_0(t_a *a);
 void			brasenham(t_a *a, t_point first, t_point second);
 void			print(t_a *a, int x, int y, int color);
 void			firsto(t_a *a, t_point first, t_point second);
